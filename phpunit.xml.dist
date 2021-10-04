@@ -36,6 +36,9 @@
     <extension>
         <extension class="DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
     </extension>
+    <logging>
+        <junit outputFile="build/logs/junit.xml"/>
+    </logging>
 
     <!-- Run `composer require symfony/panther` before enabling this extension -->
     <!--
